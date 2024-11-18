@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1c600d62-8b15-4a98-bf5f-03de7d6d3c6c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO_FINAL/CUERPOCELESTE.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTO_FINAL/CUERPOCELESTE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO_FINAL/ESTRELLA.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTO_FINAL/ESTRELLA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO_FINAL/MAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTO_FINAL/MAIN.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +36,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/dtzur/Documents/GitHub/loo/PROYECTO_FINAL"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dtzur/Documents/GitHub/loo/PROYECTO_FINAL&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dtzur\Documents\GitHub\loo\PROYECTO_FINAL" />

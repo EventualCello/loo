@@ -9,3 +9,4 @@ class CUERPOCELESTE:
 
     def ActualizarPosicion(self):
         self.Posicion
+

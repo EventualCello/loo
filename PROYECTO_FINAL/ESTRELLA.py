@@ -4,7 +4,7 @@ import math
 
 class ESTRELLA(CUERPOCELESTE):
     def __init__(self):
-        super().__init__([200,200], 500, 1000)
+        super().__init__([400,300], 500, 1000)
         self.Luminocidad = 400
         self.Temperatura = 4000
 
@@ -18,3 +18,9 @@ class ESTRELLA(CUERPOCELESTE):
 
     def ActualizarPosicion(self):
         return self.Posicion
+    def getPosicionX(self):
+        return self.Posicion[0]
+    def getPosicionY(self):
+        return self.Posicion[1]
+    '''def getRadio(self):
+        return self.Radio'''
