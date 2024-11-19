@@ -2,8 +2,8 @@ from CUERPOCELESTE import CUERPOCELESTE
 import math
 
 class LUNA(CUERPOCELESTE):
-    def __init__(self, Posicion, VelocidadRot, Masa, PeriodoRotacionPlaneta):
-        super().__init__(Posicion, VelocidadRot, Masa)
+    def __init__(self, PosicionX,PosicionY,  Masa, PeriodoRotacionPlaneta):
+        super().__init__([PosicionX,PosicionY], Masa)
         self.PeriodoRotacionPlaneta = PeriodoRotacionPlaneta #en "dias"
 
     def CalcularFuerzaGravitaroria(self, CuerpoAtraido):

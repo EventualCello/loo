@@ -32,7 +32,7 @@ def AñadirPlaneta():
 
 def QuitarPausa():
     global paused
-    root.destroy()
+    root.quit()
     paused = False
 def AbrirPausa():
 
@@ -76,4 +76,3 @@ while running:
 
 pygame.quit()
 sys.exit()
-

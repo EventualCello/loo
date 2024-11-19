@@ -1,7 +1,6 @@
 class CUERPOCELESTE:
-    def __init__(self, Posicion, VelocidadRot, Masa):
+    def __init__(self, Posicion, Masa):
         self.Posicion = Posicion
-        self.VelocidadRot = VelocidadRot
         self.Masa = Masa
 
     def CalcularFuerzaGravitaroria(self, CuerpoAtraido):
