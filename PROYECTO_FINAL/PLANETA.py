@@ -1,4 +1,6 @@
 from CUERPOCELESTE import CUERPOCELESTE
+from LUNA import LUNA
+from tkinter import messagebox
 import math
 
 class PLANETA(CUERPOCELESTE):
@@ -11,6 +13,7 @@ class PLANETA(CUERPOCELESTE):
         self.Nombre = Nombre
         self.NumLunas = 0
         self.Angulo = 0
+        self.Lunas=[]
 
     def CalcularFuerzaGravitaroria(self, CuerpoAtraido):
         rx = abs(CuerpoAtraido.Posicion[0]-self.Posicion[0])
@@ -28,8 +31,16 @@ class PLANETA(CUERPOCELESTE):
         ry = abs(Sol.Posicion[1] - self.Posicion[1])
         R = math.sqrt(((rx) * (rx)) + ((ry)*(ry)))
         return R
-    def AñadirLuna(self):
+    def AñadirLuna(self, PosicionX,PosicionY,  Masa, Diametro, Nombre):
         self.NumLunas += 1
+        Luna = LUNA(PosicionX,PosicionY,  Masa, Diametro, Nombre)
+        self.Lunas.append(Luna)
+    def getDisanciaLuna(self, Luna):
+        try:
+            self.Lunas[Luna].getDistanciaDelPlaneta(self)
+        except ValueError as e:
+            messagebox.showerror("Error", str(e))
+
 
     def ActualizarPosicion(self):
         return self.Posicion
@@ -37,3 +48,7 @@ class PLANETA(CUERPOCELESTE):
         return self.Angulo
     def setAngulo(self,NuevoAngulo):
         self.Angulo=NuevoAngulo
+    def getPosicionX(self):
+        return self.Posicion[0]
+    def getPosicionY(self):
+        return self.Posicion[1]

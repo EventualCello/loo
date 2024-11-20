@@ -8,4 +8,8 @@ class CUERPOCELESTE:
 
     def ActualizarPosicion(self):
         self.Posicion
+    def getAngulo(self):
+        return self.Angulo
+    def setAngulo(self,NuevoAngulo):
+        self.Angulo=NuevoAngulo
 

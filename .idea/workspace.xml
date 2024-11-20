@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1c600d62-8b15-4a98-bf5f-03de7d6d3c6c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO_FINAL/CUERPOCELESTE.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTO_FINAL/CUERPOCELESTE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO_FINAL/ESTRELLA.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTO_FINAL/ESTRELLA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO_FINAL/LUNA.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTO_FINAL/LUNA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO_FINAL/MAINFinal.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTO_FINAL/MAINFinal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO_FINAL/PLANETA.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTO_FINAL/PLANETA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO_FINAL/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTO_FINAL/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
